@@ -65,7 +65,7 @@ const App = () => {
         <li key={prediction.place_id}>
           <Component prediction={prediction} />
         </li>
-      })
+      ))}
     </ul>
   )
 }
